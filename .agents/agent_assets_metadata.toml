@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "wlt0kBgDf51WaA9cU7oql"
+uri = "file://attached_assets/hero.png"
+type = "image"
+title = "Gourmet grilled chicken meal prep"
+
+[[generated]]
+id = "ZkyE_-TXLPOsHZ4gGM_Wo"
+uri = "file://attached_assets/discovery.png"
+type = "image"
+title = "Marinated chicken close-up"
+
+[[generated]]
+id = "5g1fHcGgpLAscdKdBU9Zi"
+uri = "file://attached_assets/mockup.png"
+type = "image"
+title = "eBook cover mockup"
+
+[[generated]]
+id = "V017ARSVLKQIqQyKKkUu1"
+uri = "file://attached_assets/avatar1.png"
+type = "image"
+title = "Mariana avatar"
+
+[[generated]]
+id = "tQfJAeGZkHKiOACG-MkBX"
+uri = "file://attached_assets/avatar2.png"
+type = "image"
+title = "Carla avatar"
+
+[[generated]]
+id = "WmSpPYYvLUC7ITtilSZFZ"
+uri = "file://attached_assets/avatar3.png"
+type = "image"
+title = "Rafael avatar"

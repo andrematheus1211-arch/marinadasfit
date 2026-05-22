@@ -1,0 +1,224 @@
+Use este prompt no Replit AI para gerar uma página de vendas moderna, profissional e otimizada para conversão:
+
+---
+
+Crie uma página de vendas (landing page) moderna, responsiva e altamente persuasiva para vender um eBook digital chamado **"Marinadas Fit: Emagreça Comendo Comida de Verdade"**.
+
+### Objetivo
+
+Converter visitantes em compradores através de uma estrutura de copy focada em dor, desejo, transformação e urgência.
+
+### Público-alvo
+
+Pessoas que querem emagrecer, mas não conseguem manter dietas porque acham a comida sem graça, repetitiva e sem sabor.
+
+### Design
+
+* Visual premium e moderno.
+* Cores principais: verde escuro (#1B5E20), verde claro (#4CAF50), branco e detalhes dourados.
+* Aparência de produto saudável e gourmet.
+* Animações suaves ao rolar a página.
+* Botões CTA destacados.
+* Totalmente responsiva para celular e desktop.
+* Utilizar ícones modernos e imagens de comidas saudáveis apetitosas.
+* Layout inspirado em páginas de vendas de infoprodutos de alta conversão.
+
+### Estrutura da Página
+
+#### Hero Section
+
+Título principal:
+
+"Emagreça Sem Abrir Mão do Sabor"
+
+Subtítulo:
+
+"Descubra as 15 marinadas que transformam qualquer proteína simples em uma refeição digna de restaurante, ajudando você a manter a dieta sem sofrimento."
+
+Botão CTA:
+
+"QUERO MINHAS MARINADAS FIT"
+
+Imagem ao lado:
+
+* Frango grelhado suculento.
+* Marmitas saudáveis.
+* Temperos naturais.
+
+---
+
+#### Seção da Dor
+
+Título:
+
+"Seu Problema Não É Falta de Disciplina"
+
+Texto:
+
+"Se você já desistiu de uma dieta porque não aguentava mais comer peito de frango seco e sem gosto, saiba que o problema não era sua força de vontade."
+
+"É impossível manter uma alimentação saudável quando a comida parece um castigo."
+
+"Dietas fracassam porque são sem prazer."
+
+---
+
+#### Seção da Descoberta
+
+Título:
+
+"O Segredo Está na Marinada"
+
+Texto:
+
+"Uma simples marinada pode transformar uma proteína comum em uma refeição extremamente saborosa, mantendo a suculência, aumentando a saciedade e tornando sua alimentação muito mais prazerosa."
+
+"Inclusive, preparar tudo leva menos de 30 minutos por semana."
+
+---
+
+#### Seção de Benefícios
+
+Criar 3 cards com ícones.
+
+Card 1:
+🔥 Emagreça Sem Sofrer
+
+Descrição:
+"Comida saborosa reduz a ansiedade e diminui a vontade de pedir delivery."
+
+Card 2:
+⏱️ Praticidade Total
+
+Descrição:
+"Prepare tudo no final de semana e apenas grelhe durante os dias úteis."
+
+Card 3:
+🍗 15 Sabores Diferentes
+
+Descrição:
+"Nunca mais enjoe da dieta com receitas variadas e deliciosas."
+
+---
+
+#### Seção "O Que Você Vai Receber"
+
+Criar uma imagem mockup 3D do eBook.
+
+Lista:
+
+✅ 15 receitas exclusivas de marinadas fit
+
+✅ Receitas rápidas e fáceis
+
+✅ Ingredientes simples
+
+✅ Passo a passo completo
+
+✅ Combinações para frango, peixe e carne
+
+✅ Método para preparar tudo em apenas 30 minutos
+
+---
+
+#### Seção de Transformação
+
+Título:
+
+"Imagine Sua Rotina Daqui a 30 Dias"
+
+Criar uma comparação visual:
+
+Antes:
+
+* Dieta sem sabor
+* Falta de motivação
+* Delivery frequente
+* Frustração
+
+Depois:
+
+* Refeições saborosas
+* Consistência
+* Mais controle alimentar
+* Resultados na balança
+
+---
+
+#### Seção de Depoimentos
+
+Criar 3 depoimentos fictícios realistas.
+
+Exemplo:
+
+⭐⭐⭐⭐⭐
+
+"Finalmente consegui seguir minha dieta por mais de um mês. As marinadas fizeram toda a diferença."
+
+— Mariana, 34 anos
+
+---
+
+#### Seção de Oferta
+
+Título:
+
+"Oferta Especial"
+
+Mostrar:
+
+De R$ 47,00
+
+Por apenas R$ 19,90
+
+Destaque visual para o desconto.
+
+Lista de garantias:
+
+* Acesso imediato
+* Material digital
+* Pagamento seguro
+* Garantia de 7 dias
+
+---
+
+#### CTA Final
+
+Título:
+
+"Pare de Sofrer com Comida Sem Graça"
+
+Texto:
+
+"Você não precisa escolher entre emagrecer e comer bem."
+
+Botão grande:
+
+"QUERO COMEÇAR AGORA"
+
+---
+
+### Funcionalidades Técnicas
+
+* HTML, CSS e JavaScript modernos.
+* Código organizado em componentes.
+* SEO otimizado.
+* Meta tags para compartilhamento social.
+* Animações com Intersection Observer.
+* Scroll suave.
+* Botões CTA preparados para receber link de checkout.
+* Performance otimizada.
+* Design profissional nível produto premium.
+
+### Extras
+
+Adicionar:
+
+* Contador regressivo de oferta.
+* Barra flutuante de CTA no celular.
+* Efeito de prova social ("+1.200 pessoas já baixaram").
+* FAQ com perguntas expansíveis.
+* Selo visual de garantia de 7 dias.
+* Seção de perguntas frequentes com animação.
+
+O resultado deve parecer uma landing page de alta conversão pronta para vender um infoproduto digital.
