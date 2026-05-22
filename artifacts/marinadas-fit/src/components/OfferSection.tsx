@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { ShieldCheck, Check, ArrowRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
+const CHECKOUT_URL = 'https://pay.cakto.com.br/7mswjip_896258';
+
 const guarantees = [
   "Acesso imediato",
   "Material digital",
@@ -43,13 +45,14 @@ export default function OfferSection() {
                 </div>
               </div>
 
-              <button
+              <a
+                href={CHECKOUT_URL}
                 data-testid="button-offer-cta"
                 className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base font-bold uppercase tracking-wide px-8 py-3.5 rounded-full shadow-[0_0_40px_rgba(76,175,80,0.4)] border border-primary-foreground/20 hover:scale-105 transition-transform duration-300 w-full sm:w-auto mb-8"
               >
                 QUERO COMEÇAR AGORA
                 <ArrowRight className="w-4 h-4" />
-              </button>
+              </a>
 
               <div className="grid grid-cols-2 gap-4 w-full max-w-sm border-t border-primary-foreground/10 pt-6">
                 {guarantees.map((item, index) => (

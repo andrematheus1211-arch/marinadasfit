@@ -2,10 +2,9 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import CountdownTimer from './CountdownTimer';
 
+const CHECKOUT_URL = 'https://pay.cakto.com.br/7mswjip_896258';
+
 export default function FinalCTASection() {
-  const scrollToOffer = () => {
-    document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' });
-  };
 
   return (
     <section className="py-12 md:py-20 bg-primary text-primary-foreground text-center relative overflow-hidden">
@@ -27,14 +26,14 @@ export default function FinalCTASection() {
             Você não precisa escolher entre emagrecer e comer bem.
           </p>
 
-          <button
-            onClick={scrollToOffer}
+          <a
+            href={CHECKOUT_URL}
             data-testid="button-final-cta"
             className="inline-flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 text-secondary-foreground text-sm sm:text-base font-bold uppercase tracking-wide px-8 py-3.5 rounded-full shadow-xl hover:scale-105 transition-transform duration-300 w-full sm:w-auto mb-10"
           >
             QUERO COMEÇAR AGORA
             <ArrowRight className="w-4 h-4" />
-          </button>
+          </a>
 
           <div className="pt-6 border-t border-primary-foreground/20">
             <p className="text-xs text-primary-foreground/80 uppercase tracking-widest mb-4 font-semibold">

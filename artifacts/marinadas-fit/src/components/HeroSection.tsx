@@ -3,10 +3,9 @@ import { ArrowRight, Star } from 'lucide-react';
 import CountdownTimer from './CountdownTimer';
 import heroImage from '@assets/hero.png';
 
+const CHECKOUT_URL = 'https://pay.cakto.com.br/7mswjip_896258';
+
 export default function HeroSection() {
-  const scrollToOffer = () => {
-    document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' });
-  };
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center py-16 px-4 overflow-hidden bg-foreground text-primary-foreground text-center">
@@ -57,14 +56,14 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <button
-            onClick={scrollToOffer}
+          <a
+            href={CHECKOUT_URL}
             data-testid="button-hero-cta"
             className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base font-bold uppercase tracking-wide px-8 py-3.5 rounded-full shadow-[0_0_30px_rgba(76,175,80,0.35)] border border-primary-foreground/20 hover:scale-105 transition-transform duration-300"
           >
             Quero Minhas Marinadas Fit
             <ArrowRight className="w-4 h-4" />
-          </button>
+          </a>
 
           <div className="border-t border-primary-foreground/10 pt-4 w-full">
             <p className="text-xs text-primary-foreground/60 uppercase tracking-widest mb-3 font-semibold">Oferta Especial Termina Em:</p>
