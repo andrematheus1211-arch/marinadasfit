@@ -8,11 +8,10 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import OfferSection from '@/components/OfferSection';
 import FaqSection from '@/components/FaqSection';
 import FinalCTASection from '@/components/FinalCTASection';
-import FloatingCTA from '@/components/FloatingCTA';
 
 export default function LandingPage() {
   return (
-    <main className="min-h-screen bg-background font-sans">
+    <main className="min-h-screen bg-background font-sans overflow-x-hidden">
       <HeroSection />
       <PainSection />
       <DiscoverySection />
@@ -23,7 +22,6 @@ export default function LandingPage() {
       <OfferSection />
       <FaqSection />
       <FinalCTASection />
-      <FloatingCTA />
     </main>
   );
 }

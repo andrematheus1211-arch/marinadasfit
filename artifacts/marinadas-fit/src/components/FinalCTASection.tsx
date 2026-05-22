@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 import CountdownTimer from './CountdownTimer';
 
 export default function FinalCTASection() {
@@ -9,37 +8,36 @@ export default function FinalCTASection() {
   };
 
   return (
-    <section className="py-24 bg-primary text-primary-foreground text-center relative overflow-hidden">
-      {/* Decorative background elements */}
-      <div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-secondary/10 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
-      
-      <div className="container mx-auto px-4 max-w-3xl relative z-10">
+    <section className="py-12 md:py-20 bg-primary text-primary-foreground text-center relative overflow-hidden">
+      <div className="absolute top-0 left-0 w-48 h-48 bg-white/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute bottom-0 right-0 w-72 h-72 bg-secondary/10 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
+
+      <div className="container mx-auto px-4 max-w-2xl relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-2xl md:text-5xl font-bold font-serif text-white mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-serif text-white mb-4">
             Pare de Sofrer com Comida Sem Graça
           </h2>
-          
-          <p className="text-base md:text-2xl text-primary-foreground/90 mb-12">
+
+          <p className="text-sm sm:text-base md:text-lg text-primary-foreground/90 mb-8">
             Você não precisa escolher entre emagrecer e comer bem.
           </p>
 
-          <Button 
-            size="lg"
+          <button
             onClick={scrollToOffer}
-            className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-base md:text-xl py-6 md:py-8 px-8 md:px-10 rounded-full font-bold uppercase tracking-wide shadow-xl hover:scale-105 transition-transform duration-300 w-full md:w-auto mb-16"
+            data-testid="button-final-cta"
+            className="inline-flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 text-secondary-foreground text-sm sm:text-base font-bold uppercase tracking-wide px-8 py-3.5 rounded-full shadow-xl hover:scale-105 transition-transform duration-300 w-full sm:w-auto mb-10"
           >
             QUERO COMEÇAR AGORA
-            <ArrowRight className="ml-2 w-6 h-6" />
-          </Button>
+            <ArrowRight className="w-4 h-4" />
+          </button>
 
-          <div className="pt-8 border-t border-primary-foreground/20">
-            <p className="text-sm text-center text-primary-foreground/80 uppercase tracking-widest mb-6 font-semibold">
+          <div className="pt-6 border-t border-primary-foreground/20">
+            <p className="text-xs text-primary-foreground/80 uppercase tracking-widest mb-4 font-semibold">
               A oferta expira em breve:
             </p>
             <CountdownTimer />

@@ -1,0 +1,61 @@
+Faça uma revisão completa da landing page com foco em experiência mobile, responsividade e conversão.
+
+RESPONSIVIDADE:
+- Adote abordagem mobile-first.
+- Garantir compatibilidade entre 320px e 480px de largura.
+- Eliminar qualquer rolagem horizontal.
+- Todos os containers devem respeitar a largura da tela.
+- Imagens com max-width: 100% e height: auto.
+- Melhorar espaçamentos, margens e paddings para telas pequenas.
+- Garantir boa visualização em iPhone e Android.
+
+HERO SECTION:
+- Organizar elementos em coluna no mobile.
+- Texto acima e imagem abaixo.
+- Centralizar todo o conteúdo.
+- Ajustar título para 28px–36px.
+- Ajustar subtítulo para 18px–22px.
+- Melhorar legibilidade geral.
+
+TIPOGRAFIA:
+- Texto principal mínimo de 16px.
+- Line-height entre 1.5 e 1.8.
+- Evitar blocos de texto muito largos.
+- Melhorar contraste e leitura.
+
+CARDS E SEÇÕES:
+- Transformar todos os grids em coluna única no mobile.
+- Um card por linha.
+- Espaçamento consistente entre seções.
+- Centralizar conteúdo quando necessário.
+
+IMAGENS:
+- Otimizar todas as imagens para mobile.
+- Centralizar imagens.
+- Aplicar lazy loading.
+- Evitar cortes ou elementos saindo da tela.
+
+MENU:
+- Se existir menu, utilizar versão hambúrguer no mobile.
+- Navegação suave entre seções.
+- Fechar automaticamente ao clicar em um item.
+
+PERFORMANCE:
+- Otimizar CSS e JavaScript.
+- Reduzir animações pesadas.
+- Melhorar carregamento em dispositivos móveis.
+
+CTA E BOTÕES:
+- REMOVER COMPLETAMENTE o botão gigante que aparece na página para levar ao produto.
+- REMOVER qualquer botão excessivamente grande ou desproporcional.
+- Manter apenas CTAs discretos, elegantes e profissionais.
+- Os botões devem ter tamanho equilibrado e harmonioso com o layout.
+- Nenhum botão deve ocupar largura exagerada ou chamar mais atenção do que o conteúdo principal.
+- Caso exista uma barra flutuante fixa com botão grande, remover.
+- Manter apenas os botões essenciais da oferta e checkout.
+
+LAYOUT:
+- Corrigir qualquer elemento desalinhado.
+- Garantir aparência premium e profissional.
+- Melhorar a experiência do usuário em smartphones.
+- Validar toda a página para mobile antes de finalizar.

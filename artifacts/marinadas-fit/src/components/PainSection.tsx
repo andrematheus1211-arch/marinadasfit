@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 
 export default function PainSection() {
   return (
-    <section className="py-24 bg-background">
+    <section className="py-12 md:py-20 bg-background">
       <div className="container mx-auto px-4 max-w-3xl text-center">
-        <motion.h2 
-          className="text-2xl md:text-5xl font-bold text-foreground font-serif mb-10"
+        <motion.h2
+          className="text-2xl sm:text-3xl md:text-5xl font-bold text-foreground font-serif mb-8"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -14,8 +14,8 @@ export default function PainSection() {
           Seu Problema <span className="text-primary italic">Não É</span> Falta de Disciplina
         </motion.h2>
 
-        <motion.div 
-          className="space-y-6 text-sm md:text-xl text-foreground/80 leading-relaxed"
+        <motion.div
+          className="space-y-5 text-sm sm:text-base md:text-lg text-foreground/80 leading-relaxed"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

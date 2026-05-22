@@ -28,48 +28,49 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className="py-24 bg-muted/30">
-      <div className="container mx-auto px-4 max-w-6xl">
-        <motion.div 
-          className="text-center mb-16"
+    <section className="py-12 md:py-20 bg-muted/30">
+      <div className="container mx-auto px-4 max-w-5xl">
+        <motion.div
+          className="text-center mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-2xl md:text-4xl font-bold font-serif text-foreground mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-serif text-foreground">
             O que dizem sobre nossas marinadas
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {testimonials.map((t, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.15 }}
+              transition={{ duration: 0.5, delay: index * 0.12 }}
             >
-              <Card className="h-full border-border/50 bg-background shadow-sm hover:shadow-md transition-shadow">
-                <CardContent className="p-8">
-                  <div className="flex gap-1 mb-6">
+              <Card className="h-full border-border/50 bg-background shadow-sm">
+                <CardContent className="p-6">
+                  <div className="flex gap-0.5 mb-4">
                     {[1, 2, 3, 4, 5].map((star) => (
-                      <Star key={star} className="w-5 h-5 fill-secondary text-secondary" />
+                      <Star key={star} className="w-4 h-4 fill-secondary text-secondary" />
                     ))}
                   </div>
-                  <p className="text-foreground/80 italic mb-8 text-sm md:text-lg">
+                  <p className="text-foreground/80 italic mb-6 text-sm sm:text-base leading-relaxed">
                     "{t.text}"
                   </p>
-                  <div className="flex items-center gap-4">
-                    <img 
-                      src={t.avatar} 
-                      alt={t.name} 
-                      className="w-14 h-14 rounded-full object-cover border-2 border-primary/20"
+                  <div className="flex items-center gap-3">
+                    <img
+                      src={t.avatar}
+                      alt={t.name}
+                      loading="lazy"
+                      className="w-12 h-12 rounded-full object-cover border-2 border-primary/20"
                     />
                     <div>
-                      <h4 className="font-bold text-foreground">{t.name}</h4>
-                      <p className="text-sm text-foreground/60">{t.age}</p>
+                      <h4 className="font-bold text-sm text-foreground">{t.name}</h4>
+                      <p className="text-xs text-foreground/60">{t.age}</p>
                     </div>
                   </div>
                 </CardContent>
