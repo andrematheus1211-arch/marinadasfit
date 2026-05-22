@@ -37,7 +37,7 @@ export default function TestimonialsSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold font-serif text-foreground mb-4">
+          <h2 className="text-2xl md:text-4xl font-bold font-serif text-foreground mb-4">
             O que dizem sobre nossas marinadas
           </h2>
         </motion.div>
@@ -58,7 +58,7 @@ export default function TestimonialsSection() {
                       <Star key={star} className="w-5 h-5 fill-secondary text-secondary" />
                     ))}
                   </div>
-                  <p className="text-foreground/80 italic mb-8 text-lg">
+                  <p className="text-foreground/80 italic mb-8 text-sm md:text-lg">
                     "{t.text}"
                   </p>
                   <div className="flex items-center gap-4">

@@ -28,17 +28,17 @@ export default function OfferSection() {
             </div>
             
             <CardContent className="p-8 md:p-12 flex flex-col items-center text-center">
-              <h2 className="text-3xl md:text-5xl font-bold font-serif text-white mb-8">
+              <h2 className="text-2xl md:text-5xl font-bold font-serif text-white mb-8">
                 Comece Sua Transformação
               </h2>
               
               <div className="mb-10 flex flex-col items-center">
-                <span className="text-primary-foreground/60 line-through text-2xl mb-2">
+                <span className="text-primary-foreground/60 line-through text-lg md:text-2xl mb-2">
                   De R$ 47,00
                 </span>
                 <div className="flex items-start justify-center text-white">
-                  <span className="text-2xl mt-2 mr-2 font-bold">Por apenas</span>
-                  <span className="text-7xl font-black text-secondary drop-shadow-[0_0_15px_rgba(249,168,37,0.5)]">
+                  <span className="text-lg md:text-2xl mt-2 mr-2 font-bold">Por apenas</span>
+                  <span className="text-5xl md:text-7xl font-black text-secondary drop-shadow-[0_0_15px_rgba(249,168,37,0.5)]">
                     R$ 19,90
                   </span>
                 </div>
@@ -46,7 +46,7 @@ export default function OfferSection() {
 
               <Button 
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground text-xl md:text-2xl py-8 px-10 rounded-full font-bold uppercase tracking-wide shadow-[0_0_50px_rgba(76,175,80,0.5)] border border-primary-foreground/20 hover:scale-105 transition-transform duration-300 w-full md:w-auto mb-10"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground text-base md:text-2xl py-6 md:py-8 px-8 md:px-10 rounded-full font-bold uppercase tracking-wide shadow-[0_0_50px_rgba(76,175,80,0.5)] border border-primary-foreground/20 hover:scale-105 transition-transform duration-300 w-full md:w-auto mb-10"
               >
                 QUERO COMEÇAR AGORA
                 <ArrowRight className="ml-2 w-6 h-6" />

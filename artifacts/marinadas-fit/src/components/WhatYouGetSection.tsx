@@ -40,7 +40,7 @@ export default function WhatYouGetSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h2 className="text-3xl md:text-5xl font-bold font-serif mb-8 text-white">
+            <h2 className="text-2xl md:text-5xl font-bold font-serif mb-8 text-white">
               O Que Você Vai <span className="text-secondary italic">Receber</span>
             </h2>
             
@@ -55,7 +55,7 @@ export default function WhatYouGetSection() {
                   transition={{ duration: 0.4, delay: 0.3 + (index * 0.1) }}
                 >
                   <CheckCircle2 className="w-6 h-6 text-secondary shrink-0 mt-0.5" />
-                  <span className="text-lg text-primary-foreground/90">{item}</span>
+                  <span className="text-sm md:text-lg text-primary-foreground/90">{item}</span>
                 </motion.li>
               ))}
             </ul>

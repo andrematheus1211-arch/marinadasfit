@@ -27,7 +27,7 @@ export default function TransformationSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold font-serif text-foreground">
+          <h2 className="text-2xl md:text-4xl font-bold font-serif text-foreground">
             Imagine Sua Rotina Daqui a 30 Dias
           </h2>
         </motion.div>
@@ -40,14 +40,14 @@ export default function TransformationSection() {
             transition={{ duration: 0.5 }}
           >
             <Card className="h-full bg-muted/30 border-muted p-8">
-              <h3 className="text-2xl font-bold text-muted-foreground mb-6 uppercase tracking-wider text-center">Antes</h3>
+              <h3 className="text-lg md:text-2xl font-bold text-muted-foreground mb-6 uppercase tracking-wider text-center">Antes</h3>
               <ul className="space-y-6">
                 {beforeList.map((item, index) => (
                   <li key={index} className="flex items-center gap-3 text-muted-foreground">
                     <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center shrink-0">
                       <X className="w-5 h-5" />
                     </div>
-                    <span className="text-lg">{item}</span>
+                    <span className="text-sm md:text-lg">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -61,14 +61,14 @@ export default function TransformationSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <Card className="h-full bg-primary/5 border-primary/20 p-8 shadow-xl shadow-primary/5">
-              <h3 className="text-2xl font-bold text-primary mb-6 uppercase tracking-wider text-center">Depois</h3>
+              <h3 className="text-lg md:text-2xl font-bold text-primary mb-6 uppercase tracking-wider text-center">Depois</h3>
               <ul className="space-y-6">
                 {afterList.map((item, index) => (
                   <li key={index} className="flex items-center gap-3 text-foreground">
                     <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center shrink-0 shadow-sm shadow-primary/20">
                       <Check className="w-5 h-5" />
                     </div>
-                    <span className="text-lg font-medium">{item}</span>
+                    <span className="text-sm md:text-lg font-medium">{item}</span>
                   </li>
                 ))}
               </ul>

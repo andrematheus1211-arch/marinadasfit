@@ -30,17 +30,17 @@ export default function DiscoverySection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold font-serif text-foreground">
+            <h2 className="text-2xl md:text-4xl font-bold font-serif text-foreground">
               O Segredo Está na Marinada
             </h2>
             <div className="w-16 h-1 bg-secondary rounded-full" />
             
-            <p className="text-lg text-foreground/80 leading-relaxed">
+            <p className="text-sm md:text-lg text-foreground/80 leading-relaxed">
               Uma simples marinada pode transformar uma proteína comum em uma refeição extremamente saborosa, mantendo a suculência, aumentando a saciedade e tornando sua alimentação muito mais prazerosa.
             </p>
             
             <div className="bg-background border border-primary/20 p-6 rounded-xl shadow-sm">
-              <p className="text-lg font-medium text-foreground">
+              <p className="text-sm md:text-lg font-medium text-foreground">
                 <span className="text-primary mr-2">✦</span>
                 Inclusive, preparar tudo leva menos de <span className="font-bold text-secondary-foreground">30 minutos por semana.</span>
               </p>

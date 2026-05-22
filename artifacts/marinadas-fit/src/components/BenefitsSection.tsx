@@ -31,10 +31,10 @@ export default function BenefitsSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold font-serif text-foreground mb-4">
+          <h2 className="text-2xl md:text-4xl font-bold font-serif text-foreground mb-4">
             Por que esse método funciona?
           </h2>
-          <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
+          <p className="text-sm md:text-lg text-foreground/70 max-w-2xl mx-auto">
             A combinação perfeita entre sabor gourmet e praticidade para o dia a dia.
           </p>
         </motion.div>

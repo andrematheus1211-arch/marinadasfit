@@ -21,18 +21,18 @@ export default function FinalCTASection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold font-serif text-white mb-6">
+          <h2 className="text-2xl md:text-5xl font-bold font-serif text-white mb-6">
             Pare de Sofrer com Comida Sem Graça
           </h2>
           
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-12">
+          <p className="text-base md:text-2xl text-primary-foreground/90 mb-12">
             Você não precisa escolher entre emagrecer e comer bem.
           </p>
 
           <Button 
             size="lg"
             onClick={scrollToOffer}
-            className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-xl py-8 px-10 rounded-full font-bold uppercase tracking-wide shadow-xl hover:scale-105 transition-transform duration-300 w-full md:w-auto mb-16"
+            className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-base md:text-xl py-6 md:py-8 px-8 md:px-10 rounded-full font-bold uppercase tracking-wide shadow-xl hover:scale-105 transition-transform duration-300 w-full md:w-auto mb-16"
           >
             QUERO COMEÇAR AGORA
             <ArrowRight className="ml-2 w-6 h-6" />

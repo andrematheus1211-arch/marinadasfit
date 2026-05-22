@@ -5,7 +5,7 @@ export default function PainSection() {
     <section className="py-24 bg-background">
       <div className="container mx-auto px-4 max-w-3xl text-center">
         <motion.h2 
-          className="text-4xl md:text-5xl font-bold text-foreground font-serif mb-10"
+          className="text-2xl md:text-5xl font-bold text-foreground font-serif mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -15,7 +15,7 @@ export default function PainSection() {
         </motion.h2>
 
         <motion.div 
-          className="space-y-6 text-lg md:text-xl text-foreground/80 leading-relaxed"
+          className="space-y-6 text-sm md:text-xl text-foreground/80 leading-relaxed"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
