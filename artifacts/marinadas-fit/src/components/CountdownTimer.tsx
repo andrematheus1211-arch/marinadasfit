@@ -15,27 +15,25 @@ export default function CountdownTimer() {
     return () => clearInterval(timer);
   }, []);
 
+  const Block = ({ value, label }: { value: number; label: string }) => (
+    <div className="flex flex-col items-center">
+      <span className="text-xl sm:text-2xl md:text-3xl font-bold font-mono text-secondary bg-primary-foreground/10 w-12 sm:w-14 md:w-16 py-1.5 sm:py-2 rounded-lg text-center backdrop-blur-sm leading-none">
+        {String(value).padStart(2, '0')}
+      </span>
+      <span className="text-[9px] sm:text-[10px] text-primary-foreground/70 mt-1 uppercase tracking-wider">
+        {label}
+      </span>
+    </div>
+  );
+
   return (
-    <div className="flex items-center justify-center gap-4 text-center font-mono">
-      <div className="flex flex-col items-center">
-        <span className="text-3xl md:text-4xl font-bold text-secondary bg-primary-foreground/10 px-4 py-2 rounded-lg backdrop-blur-sm">
-          {String(timeLeft.hours).padStart(2, '0')}
-        </span>
-        <span className="text-xs text-primary-foreground/80 mt-1 uppercase tracking-widest">Horas</span>
-      </div>
-      <span className="text-3xl font-bold text-secondary pb-6">:</span>
-      <div className="flex flex-col items-center">
-        <span className="text-3xl md:text-4xl font-bold text-secondary bg-primary-foreground/10 px-4 py-2 rounded-lg backdrop-blur-sm">
-          {String(timeLeft.minutes).padStart(2, '0')}
-        </span>
-        <span className="text-xs text-primary-foreground/80 mt-1 uppercase tracking-widest">Min</span>
-      </div>
-      <span className="text-3xl font-bold text-secondary pb-6">:</span>
-      <div className="flex flex-col items-center">
-        <span className="text-3xl md:text-4xl font-bold text-secondary bg-primary-foreground/10 px-4 py-2 rounded-lg backdrop-blur-sm">
-          {String(timeLeft.seconds).padStart(2, '0')}
-        </span>
-        <span className="text-xs text-primary-foreground/80 mt-1 uppercase tracking-widest">Seg</span>
+    <div className="w-full flex items-center justify-center">
+      <div className="flex items-center justify-center gap-1.5 sm:gap-2 md:gap-3 max-w-full">
+        <Block value={timeLeft.hours} label="Horas" />
+        <span className="text-lg sm:text-xl md:text-2xl font-bold text-secondary pb-4 leading-none">:</span>
+        <Block value={timeLeft.minutes} label="Min" />
+        <span className="text-lg sm:text-xl md:text-2xl font-bold text-secondary pb-4 leading-none">:</span>
+        <Block value={timeLeft.seconds} label="Seg" />
       </div>
     </div>
   );
